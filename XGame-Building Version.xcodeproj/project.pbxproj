@@ -10,6 +10,10 @@
 		CEAF8527176308AD00D03A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAF8526176308AD00D03A11 /* Foundation.framework */; };
 		CEAF852A176308AD00D03A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF8529176308AD00D03A11 /* main.m */; };
 		CEAF852E176308AD00D03A11 /* XGame_Building_Version.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */; };
+		CEAF853917630AC000D03A11 /* NEFristBattleFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF853817630AC000D03A11 /* NEFristBattleFeature.m */; };
+		CEAF853C17630DD700D03A11 /* NEFristStateFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF853B17630DD700D03A11 /* NEFristStateFeature.m */; };
+		CEAF853F176310E500D03A11 /* NEFristSpecialFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF853E176310E500D03A11 /* NEFristSpecialFeature.m */; };
+		CEAF8546176317D600D03A11 /* NEFeatureTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF8545176317D600D03A11 /* NEFeatureTurn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,16 @@
 		CEAF8529176308AD00D03A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEAF852C176308AD00D03A11 /* XGame-Building Version-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XGame-Building Version-Prefix.pch"; sourceTree = "<group>"; };
 		CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XGame_Building_Version.1; sourceTree = "<group>"; };
+		CEAF853717630AC000D03A11 /* NEFristBattleFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFristBattleFeature.h; sourceTree = "<group>"; };
+		CEAF853817630AC000D03A11 /* NEFristBattleFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFristBattleFeature.m; sourceTree = "<group>"; };
+		CEAF853A17630DD700D03A11 /* NEFristStateFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFristStateFeature.h; sourceTree = "<group>"; };
+		CEAF853B17630DD700D03A11 /* NEFristStateFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFristStateFeature.m; sourceTree = "<group>"; };
+		CEAF853D176310E500D03A11 /* NEFristSpecialFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFristSpecialFeature.h; sourceTree = "<group>"; };
+		CEAF853E176310E500D03A11 /* NEFristSpecialFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFristSpecialFeature.m; sourceTree = "<group>"; };
+		CEAF85401763132900D03A11 /* FristLeveHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristLeveHeader.h; sourceTree = "<group>"; };
+		CEAF85431763153F00D03A11 /* SwitchFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchFunc.h; sourceTree = "<group>"; };
+		CEAF8544176317D600D03A11 /* NEFeatureTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEFeatureTurn.h; sourceTree = "<group>"; };
+		CEAF8545176317D600D03A11 /* NEFeatureTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEFeatureTurn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				CEAF8529176308AD00D03A11 /* main.m */,
-				CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */,
+				CEAF8534176308B800D03A11 /* Source Code */,
 				CEAF852B176308AD00D03A11 /* Supporting Files */,
 			);
 			path = "XGame-Building Version";
@@ -83,9 +97,51 @@
 		CEAF852B176308AD00D03A11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */,
 				CEAF852C176308AD00D03A11 /* XGame-Building Version-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEAF8534176308B800D03A11 /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF8535176308C900D03A11 /* Feature */,
+			);
+			name = "Source Code";
+			sourceTree = "<group>";
+		};
+		CEAF8535176308C900D03A11 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF8536176308D900D03A11 /* FristLevel */,
+				CEAF85421763152000D03A11 /* SwitchFeature */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		CEAF8536176308D900D03A11 /* FristLevel */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF85401763132900D03A11 /* FristLeveHeader.h */,
+				CEAF853A17630DD700D03A11 /* NEFristStateFeature.h */,
+				CEAF853B17630DD700D03A11 /* NEFristStateFeature.m */,
+				CEAF853717630AC000D03A11 /* NEFristBattleFeature.h */,
+				CEAF853817630AC000D03A11 /* NEFristBattleFeature.m */,
+				CEAF853D176310E500D03A11 /* NEFristSpecialFeature.h */,
+				CEAF853E176310E500D03A11 /* NEFristSpecialFeature.m */,
+			);
+			name = FristLevel;
+			sourceTree = "<group>";
+		};
+		CEAF85421763152000D03A11 /* SwitchFeature */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF85431763153F00D03A11 /* SwitchFunc.h */,
+				CEAF8544176317D600D03A11 /* NEFeatureTurn.h */,
+				CEAF8545176317D600D03A11 /* NEFeatureTurn.m */,
+			);
+			name = SwitchFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +196,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAF852A176308AD00D03A11 /* main.m in Sources */,
+				CEAF853917630AC000D03A11 /* NEFristBattleFeature.m in Sources */,
+				CEAF853C17630DD700D03A11 /* NEFristStateFeature.m in Sources */,
+				CEAF853F176310E500D03A11 /* NEFristSpecialFeature.m in Sources */,
+				CEAF8546176317D600D03A11 /* NEFeatureTurn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
