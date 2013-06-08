@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAF8527176308AD00D03A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAF8526176308AD00D03A11 /* Foundation.framework */; };
+		CEAF852A176308AD00D03A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAF8529176308AD00D03A11 /* main.m */; };
+		CEAF852E176308AD00D03A11 /* XGame_Building_Version.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEAF8521176308AD00D03A11 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CEAF852E176308AD00D03A11 /* XGame_Building_Version.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEAF8523176308AD00D03A11 /* XGame-Building Version */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XGame-Building Version"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAF8526176308AD00D03A11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEAF8529176308AD00D03A11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEAF852C176308AD00D03A11 /* XGame-Building Version-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XGame-Building Version-Prefix.pch"; sourceTree = "<group>"; };
+		CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XGame_Building_Version.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAF8520176308AD00D03A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAF8527176308AD00D03A11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAF851A176308AD00D03A11 = {
+			isa = PBXGroup;
+			children = (
+				CEAF8528176308AD00D03A11 /* XGame-Building Version */,
+				CEAF8525176308AD00D03A11 /* Frameworks */,
+				CEAF8524176308AD00D03A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAF8524176308AD00D03A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF8523176308AD00D03A11 /* XGame-Building Version */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAF8525176308AD00D03A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF8526176308AD00D03A11 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEAF8528176308AD00D03A11 /* XGame-Building Version */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF8529176308AD00D03A11 /* main.m */,
+				CEAF852D176308AD00D03A11 /* XGame_Building_Version.1 */,
+				CEAF852B176308AD00D03A11 /* Supporting Files */,
+			);
+			path = "XGame-Building Version";
+			sourceTree = "<group>";
+		};
+		CEAF852B176308AD00D03A11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF852C176308AD00D03A11 /* XGame-Building Version-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAF8522176308AD00D03A11 /* XGame-Building Version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAF8531176308AD00D03A11 /* Build configuration list for PBXNativeTarget "XGame-Building Version" */;
+			buildPhases = (
+				CEAF851F176308AD00D03A11 /* Sources */,
+				CEAF8520176308AD00D03A11 /* Frameworks */,
+				CEAF8521176308AD00D03A11 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XGame-Building Version";
+			productName = "XGame-Building Version";
+			productReference = CEAF8523176308AD00D03A11 /* XGame-Building Version */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAF851B176308AD00D03A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Nero;
+			};
+			buildConfigurationList = CEAF851E176308AD00D03A11 /* Build configuration list for PBXProject "XGame-Building Version" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEAF851A176308AD00D03A11;
+			productRefGroup = CEAF8524176308AD00D03A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAF8522176308AD00D03A11 /* XGame-Building Version */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAF851F176308AD00D03A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAF852A176308AD00D03A11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEAF852F176308AD00D03A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEAF8530176308AD00D03A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEAF8532176308AD00D03A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XGame-Building Version/XGame-Building Version-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEAF8533176308AD00D03A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XGame-Building Version/XGame-Building Version-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAF851E176308AD00D03A11 /* Build configuration list for PBXProject "XGame-Building Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAF852F176308AD00D03A11 /* Debug */,
+				CEAF8530176308AD00D03A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAF8531176308AD00D03A11 /* Build configuration list for PBXNativeTarget "XGame-Building Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAF8532176308AD00D03A11 /* Debug */,
+				CEAF8533176308AD00D03A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAF851B176308AD00D03A11 /* Project object */;
+}
